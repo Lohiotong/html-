@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一次html学习汇报</title>
+</head>
+<body>
+    <h4> <strong>PS:</strong><ins>只是简单学习了一点基本操作</ins></h4>
+    <h2>一、使用工具和学习资源</h2>
+    <p>1、工具： <strong>VS Code</strong>  需要下载插件 <strong>Open in browser</strong> <br />
+       2、学习资源：B站黑马程序员
+    </p>
+    <h2>二、学习内容：一些常用的标签</h2>
+    <h3>（1）文本格式标签</h3>
+    <p>
+        1、标题标签有1～6号，数字越小代表标题越大越重要，用<strong>h</strong>来表示 <br />
+        2、段落用<strong>p</strong>来表示，段落之间空隙较大<br />
+        3、换行用<strong>br</strong>行与行之间空隙较小<br />
+        4、加粗字体用<strong>strong</strong>,eg:加粗 VS <strong>加粗</strong> <br />
+        5、倾斜字体用<strong>em</strong>,eg:倾斜 VS <em>倾斜</em><br />
+        6、删除线用<strong>del</strong>,eg: 删除 VS <del>删除</del><br />
+        7、下划线用<strong>ins</strong>,eg: 下划线 VS <ins>下划线</ins><br />
+    </p>
+    <h3>（2）“盒子”标签</h3>
+    <p>
+        1、<strong>div</strong>来表示一个大的盒子，没有语义，用作分割区域装内容，独占一行，eg.<div>大盒子</div><br />
+        2、<strong>span</strong>来表示一个小的盒子，一行可以有多个，eg.<span>小盒子 </span><span>中盒子 </span><span>大盒子 </span><br />
+    </p>
+    <h3>（3）图像标签</h3>
+    <p>
+        1、<strong>img</strong>代表图像标签<br />
+        2、<strong>< img </strong><strong>src</strong>=“图像的路径和文件名” />代表插入图片<br />
+        ps：注意图片和html在同一级直接写文件名即可，若在下一级要用/，在上一级用.//<br />
+        <img src="Hermes.JPG" /><br />
+        3、可以通过用width、height来调整图片的大小<br />
+        <img src="Hermes.JPG" width="500" height="400"/><br />
+        4、可以通过用border来添加图片边框<br />
+        <img src="Hermes.JPG" border="10"/><br />
+        5、用alt来表示当图片不能显示的时候显示文本<br />
+        <img src="Hermes1.JPG" alt="Hermes"/><br />
+        5、用title来表示把鼠标放在图片上时显示文本<br />
+        <img src="Hermes.JPG" title="Hermes"/><br />
+    </p>
+    <h3>（4）超链接标签</h3>
+    <p>
+        <strong>a</strong>代表超链接标签<br />
+        <strong>语法格式如下：</strong><br />
+        <strong>< a href=“跳转的网页链接” target=“目标窗口弹出方式 _blank：在新窗口打开，_self代表在当前窗口打开”> 文本或者图像（链接入口）< /a> </strong><br />
+        eg。<br />
+        <a href="http://swift.szu.edu.cn/index.htm" target="_blank"> 深圳大学金融科技学院</a>
+    </p>
+    <h2>三、将自制的网站分享给他人</h2>
+    <p>1、将网页所用的所有文件上传到github<br />
+       2、然后在“setting”找到“pages”<br />
+       3、在branch中选择main，root，点击Save<br />
+       4、等待一会刷新后会出现URL链接就可以打开了<br />
+    </p>
+</body>
+</html>
